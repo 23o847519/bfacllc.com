@@ -44,6 +44,8 @@ border: solid 1px #1e1e1e;
 width: 570px;
 margin-left: auto;
 margin-right: auto;
+word-wrap: break-word;
+white-space: pre-wrap;
 word-break: break-word;
 }
 
