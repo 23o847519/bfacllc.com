@@ -1,5 +1,5 @@
-.html {
- background-image: url("resources/gondola.gif");
+html {
+background-image: url(../resources/gondola.gif);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -24,6 +24,38 @@ padding: 3px;
 word-wrap: break-word; 
 }
 
+.termHead {
+font-size: 15px!important;
+background-color: #0C090A;
+color: #b3b8c3;
+width: fit-content;
+border: solid 0px #1e1e1e;
+margin-left: auto;
+margin-right: auto;
+word-break: break-word;
+}
+
+.termText {
+font-size: 16px!important;
+background-color: #0C090A;
+color: #b3b8c3;
+width: fit-content;
+border: solid 0px #1e1e1e;
+width: 570px;
+margin-left: auto;
+margin-right: auto;
+word-break: break-word;
+
+}
+
+.termPic {
+border: solid 0px #1e1e1e;
+width: 570px;
+display: block;
+margin-left: auto;
+margin-right: auto }
+}
+
 .links {
 background-color: #0C090A!important;
 text-decoration: none;
@@ -34,3 +66,10 @@ color: #7d8fa4!important;
 background-color: #7d9fa4!important;
 color: #0C090A!important;
 cursor: pointer;
+}
+
+.logo {
+position: fixed;
+bottom: 10px;
+left: 10px;
+}
