@@ -95,11 +95,8 @@ word-break: break-word;
 border: solid 0px #1e1e1e;
 width: 570px;
 padding: px;
-border: solid 1px #1e1e1e;
+border: solid 1px #1;
 background-color: #0C090A;
-
-
-
 display: block;
 margin-left: auto;
 margin-right: auto }
@@ -122,3 +119,18 @@ position: fixed;
 bottom: 10px;
 left: 10px;
 }
+
+
+
+
+.termPic2 {
+border: solid 0px #1e1e1e;
+width: 570px;
+padding: px;
+border: solid 0px #1;
+background-color: #;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
