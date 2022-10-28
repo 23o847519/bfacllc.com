@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>/BFAC/</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+<html>
+<pre class="termIndex">
+[<b style="color: #eeeeee">BFAC</b><span style="color: #a47996"></span>]  
+[<a class="links" href="https://basedandredpilled4.life/"><b>Shop/</b></a><a class="links" href="coins.html"><b>Coins/</b></a><a class="links" href="news.html"><b>News/</b></a><a class="links" href="aboutus.html"><b>About-Us</b></a>]</pre>
+<a href="index.html"><img class="logo" src='resources/LOGO.png' width="200" /></a>
+<pre class="termCount">
+<h1>Megumin Coin will be availiable in;</h1>
+<p id="demo"></p></pre></html>
+
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+
+<script>
+var countDownDate = new Date("Oct 28, 2022 15:37:25").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Open for shopping";
+  }
+}, 1000);
+</script>

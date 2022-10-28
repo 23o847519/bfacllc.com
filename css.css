@@ -38,7 +38,7 @@ word-break: break-word;
 .termCount {
 margin: 0;
 position: absolute;
-top: 42%;
+top: 30%;
 left: 50%;
 transform: translate(-50%, +100%);
 font-size: 15px!important;
