@@ -20,7 +20,11 @@ p {
 </style>
 
 <script>
-var countDownDate = new Date("2024-12-16T02:10:25Z")getTime();
+var countDownDate = new Date("Apr 20, 2021 20:00:00")
+
+const timeOption = { hour12:true, timeZone:'UTC' };
+
+console.log( countDownDate.toLocaleString("en-GB",  timeOption ) )
 
 var x = setInterval(function() {
 
