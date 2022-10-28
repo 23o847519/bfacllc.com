@@ -37,9 +37,7 @@ word-break: break-word;
 
 .termCount {
 margin: 0;
-position: absolute;
-top: 1%;
-left: 50%;
+
 }
 
 .termText {
