@@ -120,7 +120,11 @@ bottom: 10px;
 left: 10px;
 }
 
-
+.logo2 {
+position: fixed;
+bottom: 0px;
+left: 1715px;
+}
 
 
 .termPic2 {
