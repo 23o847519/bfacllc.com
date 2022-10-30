@@ -121,8 +121,8 @@ left: 10px;
 }
 
 .logo2 {
-position: fixed;
-bottom: 10px;
+position:absolute;
+bottom: 0px;
 left: 760px;
 }
 
