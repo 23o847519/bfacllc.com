@@ -1,4 +1,4 @@
-SL(B) v1.3
+SL(B) v1.4
 
 (C) Author(BFACLLC) 2022-2024
 
@@ -6,7 +6,7 @@ The following code provided in this repository/website/repo are made available u
 
 By downloading or using this work you agree to the following conditions
 
-a. Copyright for code elements is retained by the original author(s), and may not be used or modified outside of the context of this repository or website for any purpose, unless prior written consent is obtained.
+a. Copyright for all elements is retained by the original author(s), and may not be used or modified outside of the context of this repository or website for any purpose, unless prior written consent is obtained.
 
 b. The Work made available in this repository or website may not be used for any purpose without prior written consent from the author(s).
 
