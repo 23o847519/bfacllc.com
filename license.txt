@@ -10,7 +10,7 @@ a. Copyright for all elements is retained by the original author(s), and may not
 
 b. The Work made available in this repository or website may not be used for any purpose without prior written consent from the author(s).
 
-c. The Work is made available in this repository for no personal or commercial purposes and are shipped as-is with no warranty or guarantees. The author(s) are not liable for any damages or other issues caused by the work.
+c. The Work is made available in this repository or website for no personal or commercial purposes and are shipped as-is with no warranty or guarantees. The author(s) are not liable for any damages or other issues caused by the work.
 
 All the code in this work is legally owned by BFACLLC until written transfer of ownership is obtained. 
 
