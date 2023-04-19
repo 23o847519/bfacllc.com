@@ -1,4 +1,4 @@
-Copyright (C) BFACLLC, - All Rights Reserved
-Unauthorized copying of this file, via any medium is strictly prohibited
-Proprietary and confidential, not for any personal recreational or commercial use
-Written by BFACLLC <bfacbusiness@gmail.com>, March 2023
+BFAC retains the sole ownership and exclusive rights to all original content posted to this website, unauthorized use for commercial purposes is prohibited in all cases except for when permitted by BFAC.
+
+For more information on the legal dissemination of BFAC content please contact: bfacbusiness@gmail.com 
+Updated 4/18/2023
