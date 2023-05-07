@@ -1,46 +1,54 @@
 html {
-background-image: url(resources/gondola.gif);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-background-position: center;
-}
+    background-image: url(resources/gondola.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .termIndex {
+        margin: 0;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: auto;
+        font-size: 17px;
+        background-color: #0C090A;
+        color: #b3b8c3;
+        width: 340px;
+        border: solid 1px #1e1e1e;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3px;
+        word-wrap: break-word; 
+        }
+        
+        .termProg {
+            font-size: 14px !important;
+            background-color: #0C090A;
+            color: #b3b8c3;
+            border: solid 1px #1e1e1e;
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+            word-break: break-word;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: auto;
+          }
+          
+          .progress-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          
 
-.termIndex {
-margin: 0;
-position: absolute;
-top: 42%;
-left: 50%;
-transform: translate(-50%, -50%);
-overflow: auto;
-font-size: 17px;
-background-color: #0C090A;
-color: #b3b8c3;
-width: 340px;
-border: solid 1px #1e1e1e;
-margin-left: auto;
-margin-right: auto;
-padding: 3px;
-word-wrap: break-word; 
-}
-
-.termHead {
-font-size: 15px!important;
-background-color: #0C090A;
-color: #b3b8c3;
-width: fit-content;
-border: solid 1px #1e1e1e;
-margin-left: auto;
-margin-right: auto;
-word-break: break-word;
-}
-
-.termCount {
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, +100%);
+    .termHead {
     font-size: 15px!important;
     background-color: #0C090A;
     color: #b3b8c3;
@@ -50,96 +58,111 @@ word-break: break-word;
     margin-right: auto;
     word-break: break-word;
     }
-
-.termText {
-font-size: 16px!important;
-background-color: #0C090A;
-color: #b3b8c3;
-width: fit-content;
-border: solid 1px #1e1e1e;
-width: 570px;
-margin-left: auto;
-margin-right: auto;
-word-wrap: break-word;
-white-space: pre-wrap;
-word-break: break-word;
-}
-
-.termNews {
-font-size: 14px!important;
-background-color: #0C090A;
-color: #b3b8c3;
-border: solid 1px #1e1e1e;
-width: 1140px;
-width: fit-content;
-margin-left: auto;
-margin-right: auto;
-word-break: break-word;
-}
-
-.termAboutUs {
-font-size: 14px!important;
-background-color: #0C090A;
-color: #b3b8c3;
-width: fit-content;
-border: solid 1px #1e1e1e;
-width: 890px;
-margin-left: auto;
-margin-right: auto;
-word-break: break-word;
-
-
-}
-
-.termPic {
-border: solid 0px #1e1e1e;
-width: 570px;
-padding: px;
-border: solid 1px #1;
-background-color: #0C090A;
-display: block;
-margin-left: auto;
-margin-right: auto }
-}
-
-.links {
-background-color: #0C090A!important;
-text-decoration: none;
-color: #7d8fa4!important;
-}
-        
-.links:hover {
-background-color: #7d9fa4!important;
-color: #0C090A!important;
-cursor: pointer;
-}
-
-.logo {
-position: fixed;
-bottom: 10px;
-left: 10px;
-}
-
-.logo2 {
-position: fixed;
-bottom: 0px;
-left: 761px;
-}
-
-.gondolasound {
-    position: fixed;
-    bottom: 500px;
-    left: 500px;
+    
+    .termCount {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, +100%);
+        font-size: 15px!important;
+        background-color: #0C090A;
+        color: #b3b8c3;
+        width: fit-content;
+        border: solid 1px #1e1e1e;
+        margin-left: auto;
+        margin-right: auto;
+        word-break: break-word;
+        }
+    
+    .termText {
+    font-size: 16px!important;
+    background-color: #0C090A;
+    color: #b3b8c3;
+    width: fit-content;
+    border: solid 1px #1e1e1e;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
     }
-
-.termPic2 {
-border: solid 0px #1e1e1e;
-width: 570px;
-padding: px;
-border: solid 0px #1;
-background-color: #;
-display: block;
-margin-left: auto;
-margin-right: auto; 
-}
-
+    
+    .termNews {
+    font-size: 14px!important;
+    background-color: #0C090A;
+    color: #b3b8c3;
+    border: solid 1px #1e1e1e;
+    width: 1140px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-word;
+    }
+    
+    .termAboutUs {
+    font-size: 14px!important;
+    background-color: #0C090A;
+    color: #b3b8c3;
+    width: fit-content;
+    border: solid 1px #1e1e1e;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-word;
+    }
+    
+    .termPic {
+    border: solid 0px #1e1e1e;
+    width: 570px;
+    padding: px;
+    border: solid 1px;
+    background-color: #0C090A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+    
+    .links {
+    background-color: #0C090A!important;
+    text-decoration: none;
+    color: #7d8fa4!important;
+    }
+            
+    .links:hover {
+    background-color: #7d9fa4!important;
+    color: #0C090A!important;
+    cursor: pointer;
+    }
+    
+    .logo {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    }
+    
+    .logo2 {
+    position: fixed;
+    bottom: 0px;
+    left: 761px;
+    }
+    
+    .gondolasound {
+        position: fixed;
+        bottom: 500px;
+        left: 500px;
+        }
+    
+    .termPic2 {
+    border: solid 0px #1e1e1e;
+    width: 570px;
+    padding: px;
+    border: solid 0px #1;
+    background-color: #;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+    
+    
